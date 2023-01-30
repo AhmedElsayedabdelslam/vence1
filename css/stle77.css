@@ -1,0 +1,586 @@
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+body {
+   
+    perspective: 700px;
+   
+    
+}
+.he {
+        width: 100%;
+        /* height: 600px; */
+        /* background-color: rgb(251, 255, 0); */
+        overflow: auto;
+        /* position: absolute; */
+        
+}
+.img1 {
+    width: 90px;
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 100px;
+    float: left;
+}
+.lin {
+    width: 800px;
+    height: 80px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.ul1 li {
+    display: inline-block;
+    list-style: none;
+   
+   
+}
+.ul1 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(101, 203, 250);
+    margin-left: 29px;
+    font-weight: bold;
+}
+.ic {
+    float: left;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.ic i {
+    padding-left: 20px;
+    color: gray;
+}
+.sp1 {
+  float: left;
+    font-weight: bold;
+    color: rgb(4, 248, 228);
+   padding-top: 65px;
+   padding-left: 20px;
+}
+.heed {
+    width: 400px;
+    height: 160px;
+    position: absolute;
+    border: 2px solid rgb(101, 203, 250);
+    margin-left: 280px;
+    margin-top: 100px;
+    overflow: auto;
+    background-color: whitesmoke;
+    z-index: 1;
+    visibility: hidden;
+    transition: 1s;
+    /* opacity: 0; */
+}
+   
+.yy1 ,.yy2 ,.yy3 {
+    float: left;
+    /* margin-left: 35px; */
+}
+.yy1 a ,.yy2 a,.yy3  a{
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+   font-weight: bold;
+   color: rgb(8, 185, 117);
+    
+}
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(8, 185, 117);
+    margin-left: 28px;
+}
+.ff:hover .heed {
+    visibility: visible;
+    transition: 2s;
+    
+}
+
+  .ww {
+    width: 1120px;
+    height: 500px;
+    margin-left: 100px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.tit1 {
+    padding-left: 550px;
+    padding-top: 50px;
+    font-size: 35px;
+    color: rgb(0, 183, 255);
+}
+
+.spn1{
+    display: block;
+    width: 85px;
+    height: 2px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.spn1:hover{
+    width: 170px;
+}
+.par {
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+}
+.op1 {
+    width: 250px;
+    height: 400px;
+    margin-left: 65px;
+    margin-top: 40px;
+    float: left;
+}
+.et {
+    width: 250px;
+    height: 300px;
+}
+.p1 {
+    font-size: 20px;
+    opacity: 0.3;
+}
+.p2 {
+    font-size: 22px;
+    color: rgb(49, 41, 41);
+}
+.i33 {
+    font-size: 22px;
+}
+.op1:hover .i33 {
+    color: rgb(0, 204, 255);
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.ulk {
+    width: 100%;
+    height: 450px;
+    /* background-color: rgb(211, 43, 226); */
+    overflow: auto;
+}
+.lp1 {
+    width: 600px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    background-color: rgb(196, 195, 195);
+    border-radius: 20px;
+    float: left;
+}
+.ghh {
+    width: 400px;
+    height: 80px;
+    margin-top:20px ;
+    margin-left: 30px;
+    /* background-color: burlywood; */
+    position: relative;
+}
+.i66 {
+    font-size: 50px;
+    position: absolute;
+    color: rgb(0, 204, 255);
+
+}
+.tit33 {
+    position: absolute;
+    font-size: 30px;
+    padding-left:70px;
+}
+.sp22 {
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.ghhh {
+    width: 500px;
+    height: 200px;
+    /* background-color: rgb(57, 71, 83); */
+    margin-left: 30px;
+}
+.sp99 {
+    font-size: 20px;
+}
+.lines {
+    width: 300px;
+    height: 40px;
+    margin-left: 290px;
+    /* background-color: darkorange; */
+    overflow: auto;
+}
+.nn1 {
+    width: 70px;
+    height: 2px;
+    float: left;
+    margin-left: 20px;
+    background-color:rgb(0, 204, 255) ;
+}
+.lp2 {
+    height: 350px;
+    width: 250px;
+   background-image: url(../images/fl3.webp);
+   border-radius: 10px;
+   background-size: cover;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: 1s;
+}
+.mn1 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgb(69, 214, 250);
+}
+.mn2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    color: gray;
+}
+.lp3 {
+    height: 350px;
+    width: 250px;
+    background-image: url(../images/fl2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: 1s;
+}
+.lp2:hover , .lp3:hover {
+    transform: scale(1.1,1.1);
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.bbe {
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+.kj {
+    width: 230px;
+    height: 200px;
+    margin-left: 30px;
+    float: left;
+}
+.tg1 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 76px;
+    margin-top: 30px;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.ik1 ,.ik2 {
+    font-size: 45px;
+} 
+.ik1 {
+    opacity: 0.4;
+    color: dodgerblue;
+}
+
+.ik2 {
+    color: dodgerblue;
+}
+
+.kl1 {
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.kl2 {
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    
+}
+.tg1:hover {
+    transform: rotateX(180deg);
+
+}
+.bnm1 {
+    padding-left: 50px;
+    font-weight: bold;
+    color: dodgerblue;
+    font-size: 20px;
+}
+.bnm2 {
+    font-size: 20px;
+    opacity: 0.4;
+}
+.cv {
+    width: 2px;
+    height: 120px;
+    margin-top: 30px;
+    background-color: rgb(0, 192, 150);
+    float: left;
+}
+.zx {
+    width: 1200px;
+    height: 2px;
+    background-color:rgb(0, 192, 150) ;
+    margin: auto;
+    opacity: 0.5;
+
+} 
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.df {
+    padding-left: 550px;
+    padding-top: 50px;
+    font-size: 35px;
+    color: rgb(0, 183, 255);
+}
+.spn1{
+    display: block;
+    width: 85px;
+    height: 2px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.spn1:hover{
+    width: 170px;
+}
+.bm1 ,.bm2 ,.bm3 ,.bm4 {
+    font-size: 19px;
+}
+.bm1 {
+    padding-left: 440px;
+}
+.bm2 {
+    padding-left: 40px;
+}
+.bm3 {
+    padding-left: 40px;
+}
+.bm4 {
+    padding-left: 40px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.kol1 {
+    width: 100%;
+    height: 700px;
+    /* background-color: aquamarine; */
+    overflow: auto;
+    margin: auto;
+}.bmw {
+    width: 400px;
+    height:700px ;
+    /* background-color: chartreuse; */
+    float: left;
+    margin-left: 40px;
+    position: relative;
+}
+.as {
+    width: 400px;
+    height: 490px;
+    background-color: rgb(201, 224, 224); 
+    position: absolute;
+    margin-top: 50px;
+}
+.bmw1 {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    
+    margin: 110px 50px;
+    
+    transform-style: preserve-3d;
+    position: relative;
+    z-index: 1;
+}
+.cvv1 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm4.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+    
+}
+.cvv2 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm3.jpg);
+    background-size: cover;
+    /* margin:70px auto; */
+    position: absolute;
+    transform: rotateY(180deg);
+}
+.cvv2 i {
+    font-size: 40px;
+    color: rgb(0, 160, 107);
+    padding-top: 150px;
+}
+.yoy {
+    margin-left: 70px;
+}
+.bmw1:hover {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.cvb {
+    position: absolute;
+    margin-top: 550px;
+    
+    color: yellow;
+}
+.igh {
+    color: grey;
+}
+.cvb1 {
+    position: absolute;
+    padding-top: 580px;
+    /* padding-left:60px ; */
+    font-size: 22px;
+    font-weight: bold;
+    color: cornflowerblue;
+}  
+/* \\\\\\\\\\\\\\\   الاضلي*/
+.cvv3 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm5.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+    
+}
+.cvv4 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm1.jpg);
+    background-size: cover;
+    /* margin:70px auto; */
+    position: absolute;
+    transform: rotateY(180deg);
+}
+.cvv4 i {
+    font-size: 40px;
+    color: rgb(0, 160, 107);
+    padding-top: 150px;
+}
+
+/* \\\\\\\\ */
+.cvv5 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm6.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+    
+}
+.cvv6 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm2.webp);
+    background-size: cover;
+    /* margin:70px auto; */
+    position: absolute;
+    transform: rotateY(180deg);
+}
+.cvv6 i {
+    font-size: 40px;
+    color: rgb(0, 160, 107);
+    padding-top: 150px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.cvv10 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm12.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+    
+}
+.cvv11 {
+    width: 300px;
+    height: 350px;
+   background-image: url(../images/bm14.jpg);
+    background-size: cover;
+    /* margin:70px auto; */
+    position: absolute;
+    transform: rotateY(180deg);
+}
+.cvv11 i {
+    font-size: 40px;
+    color: rgb(0, 160, 107);
+    padding-top: 150px;
+}
+/* \\\\\\\\ */
+.cvv12 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm13.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+    
+}
+.cvv13 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm15.jpg);
+    background-size: cover;
+    /* margin:70px auto; */
+    position: absolute;
+    transform: rotateY(180deg);
+}
+.cvv13 i {
+    font-size: 40px;
+    color: rgb(0, 160, 107);
+    padding-top: 150px;
+}
+/* \\\\\\\\\\\\\\ */
+.cvv14 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm10.webp);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+    
+}
+.cvv15 {
+    width: 300px;
+    height: 350px;
+    background-image: url(../images/bm11.jpg);
+    background-size: cover;
+    /* margin:70px auto; */
+    position: absolute;
+    transform: rotateY(180deg);
+}
+.cvv15 i {
+    font-size: 40px;
+    color: rgb(0, 160, 107);
+    padding-top: 150px;
+}
+
+
+    
